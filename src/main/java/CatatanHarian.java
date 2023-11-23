@@ -462,6 +462,7 @@ public class CatatanHarian extends javax.swing.JFrame {
 
     /**
      * BUTTON IMPOR
+     * Berfungsi untuk mengimpor data dari file txt ke dalam tabel
      */
     private void btnImporActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_btnImporActionPerformed
         String fileLokasi = "C:\\Users\\ROG\\Documents\\NetBeansProjects\\Project_UTS\\impor.txt"; //membuat variabel untuk menyimpan lokasi file yang akan diimpor.
@@ -511,7 +512,7 @@ public class CatatanHarian extends javax.swing.JFrame {
     }// GEN-LAST:event_btnEksporActionPerformed
 
     /**
-     * BUTTON EKSPOR
+     * BUTTON LOG OUT
      */
     private void btnLogOutActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_btnLogOutActionPerformed
         LoginForm hlmLogin = new LoginForm(); //Membuat objek dari kelas LoginForm
